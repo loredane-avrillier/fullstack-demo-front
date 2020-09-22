@@ -48,7 +48,7 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn color="primary" nuxt to="/inspire">Continue</v-btn>
+          <v-btn color="primary" nuxt :to="'/products/' + product.id">Continue</v-btn>
         </v-card-actions>
       </v-card>
     </v-col>
@@ -60,11 +60,7 @@ import Logo from "~/components/Logo.vue";
 import VuetifyLogo from "~/components/VuetifyLogo.vue";
 
 export default {
-  data() {
-    return {
 
-    }
-  },
   components: {
     Logo,
     VuetifyLogo,
