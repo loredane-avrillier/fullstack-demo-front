@@ -15,6 +15,9 @@
             <span>AREA :</span>
             <span class="infos-data">{{ product.area}}</span>
           </div>
+          <v-btn icon color="pink">
+            <v-icon>mdi-heart</v-icon>
+          </v-btn>
         </v-card-text>
       </v-card>
     </v-container>
@@ -42,6 +45,6 @@ export default {
   text-transform: uppercase;
 }
 .infos-data {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 </style>
